@@ -119,5 +119,15 @@ namespace lab8
         {
             richTextBox1.Cut();
         }
+
+        private void копироватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Copy();
+        }
+
+        private void вставитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Paste();
+        }
     }
 }

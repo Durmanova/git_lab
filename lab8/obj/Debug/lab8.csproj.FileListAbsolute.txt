@@ -8,3 +8,13 @@ F:\УЧЕБА\2 cеместр\lab8\lab8\obj\Debug\lab8.csproj.GenerateResource.c
 F:\УЧЕБА\2 cеместр\lab8\lab8\obj\Debug\lab8.csproj.CoreCompileInputs.cache
 F:\УЧЕБА\2 cеместр\lab8\lab8\obj\Debug\lab8.exe
 F:\УЧЕБА\2 cеместр\lab8\lab8\obj\Debug\lab8.pdb
+D:\lab8\lab8\bin\Debug\lab8.exe.config
+D:\lab8\lab8\bin\Debug\lab8.exe
+D:\lab8\lab8\bin\Debug\lab8.pdb
+D:\lab8\lab8\obj\Debug\lab8.csproj.AssemblyReference.cache
+D:\lab8\lab8\obj\Debug\lab8.Form1.resources
+D:\lab8\lab8\obj\Debug\lab8.Properties.Resources.resources
+D:\lab8\lab8\obj\Debug\lab8.csproj.GenerateResource.cache
+D:\lab8\lab8\obj\Debug\lab8.csproj.CoreCompileInputs.cache
+D:\lab8\lab8\obj\Debug\lab8.exe
+D:\lab8\lab8\obj\Debug\lab8.pdb
