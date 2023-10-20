@@ -54,6 +54,7 @@ namespace lab8
             this.выравниваниеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поЦентруToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.поЛевомуКраюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поПравомуКраюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -212,7 +213,8 @@ namespace lab8
             // 
             this.выравниваниеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.поЦентруToolStripMenuItem,
-            this.поЛевомуКраюToolStripMenuItem});
+            this.поЛевомуКраюToolStripMenuItem,
+            this.поПравомуКраюToolStripMenuItem});
             this.выравниваниеToolStripMenuItem.Name = "выравниваниеToolStripMenuItem";
             this.выравниваниеToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
             this.выравниваниеToolStripMenuItem.Text = "Выравнивание";
@@ -230,6 +232,13 @@ namespace lab8
             this.поЛевомуКраюToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.поЛевомуКраюToolStripMenuItem.Text = "По левому краю";
             this.поЛевомуКраюToolStripMenuItem.Click += new System.EventHandler(this.поЛевомуКраюToolStripMenuItem_Click);
+            // 
+            // поПравомуКраюToolStripMenuItem
+            // 
+            this.поПравомуКраюToolStripMenuItem.Name = "поПравомуКраюToolStripMenuItem";
+            this.поПравомуКраюToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.поПравомуКраюToolStripMenuItem.Text = "По правому краю";
+            this.поПравомуКраюToolStripMenuItem.Click += new System.EventHandler(this.поПравомуКраюToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -278,6 +287,7 @@ namespace lab8
         private System.Windows.Forms.ToolStripMenuItem выравниваниеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem поЦентруToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem поЛевомуКраюToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поПравомуКраюToolStripMenuItem;
     }
 }
 
