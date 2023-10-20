@@ -46,6 +46,11 @@ namespace lab8
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.форматированиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.шрифтToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветШрифтаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +59,8 @@ namespace lab8
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem,
-            this.правкаToolStripMenuItem});
+            this.правкаToolStripMenuItem,
+            this.форматированиеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(767, 28);
@@ -175,6 +181,29 @@ namespace lab8
             this.вставитьToolStripMenuItem.Text = "Вставить";
             this.вставитьToolStripMenuItem.Click += new System.EventHandler(this.вставитьToolStripMenuItem_Click);
             // 
+            // форматированиеToolStripMenuItem
+            // 
+            this.форматированиеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.шрифтToolStripMenuItem,
+            this.цветШрифтаToolStripMenuItem});
+            this.форматированиеToolStripMenuItem.Name = "форматированиеToolStripMenuItem";
+            this.форматированиеToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
+            this.форматированиеToolStripMenuItem.Text = "Форматирование";
+            // 
+            // шрифтToolStripMenuItem
+            // 
+            this.шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
+            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.шрифтToolStripMenuItem.Text = "Шрифт";
+            this.шрифтToolStripMenuItem.Click += new System.EventHandler(this.шрифтToolStripMenuItem_Click);
+            // 
+            // цветШрифтаToolStripMenuItem
+            // 
+            this.цветШрифтаToolStripMenuItem.Name = "цветШрифтаToolStripMenuItem";
+            this.цветШрифтаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.цветШрифтаToolStripMenuItem.Text = "Цвет шрифта";
+            this.цветШрифтаToolStripMenuItem.Click += new System.EventHandler(this.цветШрифтаToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -214,6 +243,11 @@ namespace lab8
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem форматированиеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem шрифтToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem цветШрифтаToolStripMenuItem;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.FontDialog fontDialog1;
     }
 }
 
