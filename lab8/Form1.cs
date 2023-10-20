@@ -145,5 +145,10 @@ namespace lab8
                 richTextBox1.ForeColor = colorDialog1.Color;
             }
         }
+
+        private void поЦентруToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+        }
     }
 }

@@ -51,6 +51,8 @@ namespace lab8
             this.цветШрифтаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.выравниваниеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поЦентруToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +62,8 @@ namespace lab8
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.файлToolStripMenuItem,
             this.правкаToolStripMenuItem,
-            this.форматированиеToolStripMenuItem});
+            this.форматированиеToolStripMenuItem,
+            this.выравниваниеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(767, 28);
@@ -204,6 +207,21 @@ namespace lab8
             this.цветШрифтаToolStripMenuItem.Text = "Цвет шрифта";
             this.цветШрифтаToolStripMenuItem.Click += new System.EventHandler(this.цветШрифтаToolStripMenuItem_Click);
             // 
+            // выравниваниеToolStripMenuItem
+            // 
+            this.выравниваниеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.поЦентруToolStripMenuItem});
+            this.выравниваниеToolStripMenuItem.Name = "выравниваниеToolStripMenuItem";
+            this.выравниваниеToolStripMenuItem.Size = new System.Drawing.Size(128, 24);
+            this.выравниваниеToolStripMenuItem.Text = "Выравнивание";
+            // 
+            // поЦентруToolStripMenuItem
+            // 
+            this.поЦентруToolStripMenuItem.Name = "поЦентруToolStripMenuItem";
+            this.поЦентруToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.поЦентруToolStripMenuItem.Text = "По центру";
+            this.поЦентруToolStripMenuItem.Click += new System.EventHandler(this.поЦентруToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -248,6 +266,8 @@ namespace lab8
         private System.Windows.Forms.ToolStripMenuItem цветШрифтаToolStripMenuItem;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.ToolStripMenuItem выравниваниеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поЦентруToolStripMenuItem;
     }
 }
 
