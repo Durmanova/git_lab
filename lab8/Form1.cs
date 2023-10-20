@@ -150,5 +150,10 @@ namespace lab8
         {
             richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
         }
+
+        private void поЛевомуКраюToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Left;
+        }
     }
 }
