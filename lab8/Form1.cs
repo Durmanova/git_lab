@@ -42,6 +42,7 @@ namespace lab8
             openFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
             saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
             key.OpenSubKey("Lab8", true);
+            this.BackColor = Color.DarkGray;
         }
         string fileName;
         private void Form1_Load(object sender, EventArgs e)
