@@ -114,5 +114,10 @@ namespace lab8
         {
             richTextBox1.SelectAll();
         }
+
+        private void вырезатьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Cut();
+        }
     }
 }
