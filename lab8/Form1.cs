@@ -109,5 +109,10 @@ namespace lab8
         {
             key.Close();
         }
+
+        private void выделитьВсеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+        }
     }
 }

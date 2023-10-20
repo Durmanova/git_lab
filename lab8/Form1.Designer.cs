@@ -42,6 +42,7 @@ namespace lab8
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.выделитьВсеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +102,8 @@ namespace lab8
             this.правкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.отменитьToolStripMenuItem,
             this.вернутьToolStripMenuItem,
-            this.очиститьВсеToolStripMenuItem});
+            this.очиститьВсеToolStripMenuItem,
+            this.выделитьВсеToolStripMenuItem});
             this.правкаToolStripMenuItem.Name = "правкаToolStripMenuItem";
             this.правкаToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.правкаToolStripMenuItem.Text = "Правка";
@@ -109,21 +111,21 @@ namespace lab8
             // отменитьToolStripMenuItem
             // 
             this.отменитьToolStripMenuItem.Name = "отменитьToolStripMenuItem";
-            this.отменитьToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.отменитьToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.отменитьToolStripMenuItem.Text = "Отменить";
             this.отменитьToolStripMenuItem.Click += new System.EventHandler(this.отменитьToolStripMenuItem_Click);
             // 
             // вернутьToolStripMenuItem
             // 
             this.вернутьToolStripMenuItem.Name = "вернутьToolStripMenuItem";
-            this.вернутьToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.вернутьToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.вернутьToolStripMenuItem.Text = "Вернуть";
             this.вернутьToolStripMenuItem.Click += new System.EventHandler(this.вернутьToolStripMenuItem_Click);
             // 
             // очиститьВсеToolStripMenuItem
             // 
             this.очиститьВсеToolStripMenuItem.Name = "очиститьВсеToolStripMenuItem";
-            this.очиститьВсеToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.очиститьВсеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.очиститьВсеToolStripMenuItem.Text = "Очистить все";
             this.очиститьВсеToolStripMenuItem.Click += new System.EventHandler(this.очиститьВсеToolStripMenuItem_Click);
             // 
@@ -138,6 +140,13 @@ namespace lab8
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // выделитьВсеToolStripMenuItem
+            // 
+            this.выделитьВсеToolStripMenuItem.Name = "выделитьВсеToolStripMenuItem";
+            this.выделитьВсеToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.выделитьВсеToolStripMenuItem.Text = "Выделить все";
+            this.выделитьВсеToolStripMenuItem.Click += new System.EventHandler(this.выделитьВсеToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -173,6 +182,7 @@ namespace lab8
         private System.Windows.Forms.ToolStripMenuItem отменитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вернутьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem очиститьВсеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem выделитьВсеToolStripMenuItem;
     }
 }
 
